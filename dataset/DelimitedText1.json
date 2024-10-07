@@ -1,0 +1,91 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Name": {
+				"type": "string",
+				"defaultValue": "\"Kate\""
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "MTA_Wi-Fi_Locations_20240212.csv",
+				"container": "mta-data-container"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Station Name",
+				"type": "String"
+			},
+			{
+				"name": "Station Complex",
+				"type": "String"
+			},
+			{
+				"name": "Lines",
+				"type": "String"
+			},
+			{
+				"name": "Historical",
+				"type": "String"
+			},
+			{
+				"name": "Borough",
+				"type": "String"
+			},
+			{
+				"name": "County",
+				"type": "String"
+			},
+			{
+				"name": "Latitude",
+				"type": "String"
+			},
+			{
+				"name": "Longitude",
+				"type": "String"
+			},
+			{
+				"name": "WiFi Available",
+				"type": "String"
+			},
+			{
+				"name": "AT&T",
+				"type": "String"
+			},
+			{
+				"name": "Sprint",
+				"type": "String"
+			},
+			{
+				"name": "T-Mobile",
+				"type": "String"
+			},
+			{
+				"name": "Verizon",
+				"type": "String"
+			},
+			{
+				"name": "Location",
+				"type": "String"
+			},
+			{
+				"name": "Georeference",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
