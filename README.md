@@ -1,1 +1,1 @@
-# mta-sameple-pipeline
+# mta-sample-pipeline
