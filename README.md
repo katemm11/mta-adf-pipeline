@@ -1,4 +1,4 @@
-# MTA Sample Pipeline
+# MTA ADF Pipeline
 
 This pipeline aggregates data from two sources in the MTA Open Data Portal: MTA Wifi Locations (https://data.ny.gov/Transportation/MTA-Wi-Fi-Locations/pwa9-tmie/about_data) and Subway Ridership Data (https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-Beginning-February-202/wujg-7c2s/about_data).
 
